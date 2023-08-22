@@ -1,0 +1,110 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+ul { list-style: none; padding-left: 5px; }
+a { color:blue; text-decoration: none;}
+.bar {
+    background-color: #f9f9fb;
+    padding:15px;
+    border-top: solid 1px #cdcdcd;
+    border-bottom: solid 1px #cdcdcd;
+    position: relative;
+}
+.bar h4{
+    position: absolute;
+    height: 50px;
+    margin: -12px 0 0 400px;
+}
+.content {
+    max-width: 1440px;
+    margin: auto;
+    grid-gap: 3rem;
+    display: grid;
+    gap: 3rem;
+    grid-template-areas: "sidebar main anchors";
+    grid-template-columns: minmax(0,15rem) minmax(0,2.5fr) minmax(0,15rem);
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+.footer {
+    min-height: 100px;
+    border-top: solid 1px #cdcdcd;
+}
+.anchors {
+    border-left: solid 1px #cdcdcd;
+    padding-left: 15px;
+}
+.sidebar {
+    border-right: solid 1px #cdcdcd;
+}
+figure {
+    text-align: center;
+}
+.logo img{
+    margin: 5px 0px 15px 10px;
+}
+.logo h1{
+    font-family: 'Trebuchet MS';
+    color: orangered;
+    margin: -60px 0px 10px 200px;
+}
+.logo h4{
+    font-family: 'Trebuchet MS';
+    margin: -10px 0px 10px 220px;
+}
+.logo input{
+    font-family: 'Trebuchet MS';
+    margin: -50px 0px 0px 425px;   
+    height: 30px;
+    width: 500px;
+    border-radius: 10px;
+    position: absolute;
+}
+hr {
+    height:2px;
+    background-color: orangered;
+}
+table{
+    border: dotted 2px rgb(94, 94, 165);
+    webkit-box-shadow: -11px 13px 17px -1px rgba(0,0,0,0.75);
+    moz-box-shadow: -11px 13px 17px -1px rgba(0,0,0,0.75);
+    box-shadow: -11px 13px 17px -1px rgba(0,0,0,0.75);
+}
+th{
+    background-color: black;
+    color: white;
+}
+table tfoot td{
+    background-color: rgba(255, 160, 122, 0.678);
+
+}
+table tbody tr{
+    text-align: center;
+}
+table tfoot tr{
+    text-align: center;
+    font-size: large;
+    font-weight: bold;
+}
+table tbody tr:nth-child(even) td{
+    background-color: lightgrey;
+}
+table tbody tr:hover td{
+    background-color: lightslategray;
+    cursor: pointer;
+}
+button{
+    width: 30px;
+    border-style: none;
+    background-color: white;
+    height: 30px;
+    border-radius: 5px;
+    position: absolute;
+    margin: -50px 0px 0px 935px;
+}
+button img{
+    width: 25px;
+    position: relative;
+}

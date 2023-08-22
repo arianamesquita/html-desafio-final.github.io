@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title alt="HTML - histórico, história e versões">HTML</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="shortcut icon" href="assets/images/iconmonstr-eye-6.svg">
+</head>
+<body>
+    <div class="logo">
+        <header>
+            <img src="assets/images/iconmonstr-eye-6.svg" width="50" alt="logomarca com um olho, uma lupa e um globo">
+            <img src="assets/images/iconmonstr-magnifier-10.svg" width="30">
+            <img src="assets/images/iconmonstr-globe-6.svg" width="50" alt="">
+            <h1>WikiSearch</h1>
+            <h4>Enciclopédia aberta</h4>
+            <input type="text" id="busca" alt="campo de pesquisa">
+            <button id="icon_input" type="submit"><img src="assets/images/iconmonstr-magnifier-10.svg" alt="botão pesquisar">
+            </button>
+        </header>
+    </div>
+
+    <div class="bar" alt="possível trafegar entre as páginas aqui">
+        <h4 style="margin: -12px 0 0 300px" ><a href="index.html">HTML</a></h4>
+        <h4><a href="html5.html">HTML5</a></h4>
+    </div>
+
+    <div class="content">
+        <aside class="sidebar">
+            <h2>Título</h2>
+            <ul>
+                <li><a href="#logo" alt="voltar para o início">Início</a></li>
+                <li><a href="#historia" alt="ler a história do HTML">História</a></li>
+                <li><a href="#versoes" alt="versões do HTML">Versões</a></li>
+            </ul>
+        </aside>
+
+        <div class="main" id="article">
+            <h1>HTML</h1>
+            <hr>
+            <article>
+                <b>HTML</b> (abreviação para a expressão inglesa <b><i>HyperText Markup Language</i></b>, que
+                significa: "Linguagem de Marcação de Hipertexto") é uma linguagem de marcação utilizada na 
+                construção de páginas na Web. Documentos HTML podem ser interpretados por navegadores. A 
+                tecnologia é fruto da junção entre os padrões HyTime e SGML.
+                <br>
+                <br>
+                HyTime é um padrão para a representação estruturada de hip  ermídia e conteúdo baseado em tempo. 
+                Um documento é visto como um conjunto de eventos concorrentes dependentes de tempo (como áudio,
+                 vídeo, etc.), conectados por hiperligações (em inglês: hyperlink e link). O padrão é 
+                independente de outros padrões de processamento de texto em geral.
+                <br>
+                <br>
+                SGML é um padrão de formatação de textos. Não foi desenvolvido para hipertexto, mas tornou-se 
+                conveniente para transformar documentos em hiper-objetos e para descrever as ligações.
+            </article>
+            <hr>
+            <h2 id="historia">História</h2>
+            <article>
+                Tim Berners-Lee (físico britânico) criou o HTML original (e outros protocolos associados como
+                o HTTP), numa estação NeXTcube, usando o ambiente de desenvolvimento NeXTSTEP. Na época, a 
+                linguagem não era uma especificação, mas uma coleção de ferramentas para resolver um problema 
+                de Tim: a comunicação e disseminação das pesquisas entre ele e o seu grupo de colegas. A sua 
+                solução, combinada com a então emergente internet pública (que tornar-se-ia a Internet), 
+                ganhou atenção mundial.
+                <br>
+                <br>
+                As primeiras versões do HTML foram definidas com regras sintáticas flexíveis, o que ajudou 
+                aqueles sem familiaridade com a publicação na Web. Através do tempo, a utilização de 
+                ferramentas para autoria de HTML aumentou, assim como a tendência em tornar a sintaxe 
+                cada vez mais rígida. Apesar disso, por questões históricas (retrocompatibilidade), os 
+                navegadores ainda hoje conseguem interpretar páginas web que estão longe de ser um código HTML 
+                válido.
+                <br>
+                <br>
+                A linguagem foi definida em especificações formais na década de 1990, inspiradas nas propostas 
+                originais de Tim Berners-Lee em criar uma linguagem baseada em SGML para a Internet. A primeira 
+                publicação foi esboçada por Berners-Lee e Dan Connolly e publicada em 1993 na IETF, como uma 
+                aplicação formal para o SGML (com uma DTD em SGML definindo a gramática). A IETF criou um 
+                grupo de trabalho para o HTML no ano seguinte, e publicou o HTML 2.0 em 1995. Desde 1996, as 
+                especificações HTML vêm sendo mantidas, com o auxílio de fabricantes de software, pelo World 
+                Wide Web Consortium (W3C). Apesar disso, em 2000 a linguagem tornou-se também uma norma 
+                internacional (ISO/IEC 15445:2000). A recomendação HTML 4.01 foi publicada no final de 1999 
+                pelo W3C. Uma errata ainda foi lançada em 2001.
+                <br>
+                <br>
+                Desde a publicação do HTML 3.5 no final de 1997, o grupo de trabalho da W3C tem cada vez mais 
+                — e de 2002 a 2006, de forma exclusiva — focado no desenvolvimento do XHTML, uma especificação 
+                HTML baseada em XML que é considerada pela W3C como um sucessor do HTML. O XHTML faz 
+                uso de uma sintaxe mais rigorosa e menos ambígua para tornar o HTML mais simples de ser 
+                processado e estendido.
+                <br>
+                <br>
+                Em janeiro de 2008 o W3C publicou a especificação do HTML5 como Working Draft. Apesar de sua 
+                sintaxe ser semelhante à de SGML, o HTML5 abandonou qualquer tentativa de ser uma aplicação 
+                SGML e definiu explicitamente sua própria serialização "html", além de uma alternativa baseada 
+                em XML, o XHTML5.
+                <br>
+                <br>
+                Várias versões HTML foram publicadas:
+            </article>
+            <br>
+            <table id="versoes" width="500" height="30" align="center" cellpadding="2" cellspacing="5">
+                <thead>
+                    <tr>
+                        <th>Versão</th>
+                        <th>Ano</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>HTML</td>
+                        <td>1991</td>
+                    </tr>
+                    <tr>
+                        <td>HTML 2.0</td>
+                        <td>1995</td>
+                    </tr>
+                    <tr>
+                        <td>HTML3.2</td>
+                        <td>1997</td>
+                    </tr>
+                    <tr>
+                        <td>HTML 4.01</td>
+                        <td>1999</td>
+                    </tr>
+                    <tr>
+                        <td>XHTML</td>
+                        <td>2000</td>
+                    </tr>
+                    <tr>
+                        <td>HTML5</td>
+                        <td>2014</td>
+                    </tr>
+                    <tr>
+                        <td>HTML5.1</td>
+                        <td>2016 e 2017 (2ª Edição)</td>
+                    </tr>
+                    <tr>
+                        <td>HTML5.2</td>
+                        <td>2017</td>
+                    </tr>
+                </tbody>
+            </table>
+            <br>
+            <br>
+            <a href="html5.html">Voltar para o início</a>
+            <div>
+                <script>
+                    var searchField = document.getElementById('busca');
+                    var descriptionObject = document.getElementById('article');
+                    var textToSearch = descriptionObject.innerHTML;
+        
+                    function realizaBusca(busca){
+                        const regex = new RegExp(`(${busca})(?!(.(?!<mark))*</mark>)+`, 'ig');
+                        const ocurrences = textToSearch.match(regex);
+                        descriptionObject.innerHTML = textToSearch.replace(regex, `<mark>${busca}</mark>`)
+                    }
+                    searchField.addEventListener('keyup', (e) => realizaBusca(e.target.value));
+                </script>
+            </div>
+        </div>
+        <nav class="anchors">
+            <h2>Outros Artigos</h2>
+            <ul>
+                <li><a href="index.html">HTML 1</a></li>
+                <li><a href="html5.html">HTML 5</a></li>
+            </ul>
+            <br>
+            <aside>
+                <img src="assets/images/Tim.jpeg" width="100">
+                <h5>Tim Berners-Lee</h5>
+                <br>
+                <img src="assets/images/html1.gif" width="200">
+                <h5>HTML 1  </h5>
+            </aside>
+        </nav>
+    </div>
+
+    <div class="footer">
+        <footer>
+            <p>Esta página foi editada no dia 22/08/2023</p>
+            <p>por <i>Ariana Mesquita Gonçalves</i></p>
+
+        </footer>
+    </div>
+</body>
+</html>
